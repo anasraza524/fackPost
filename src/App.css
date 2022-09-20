@@ -36,22 +36,64 @@
 span {
   font-size: 40px
 }
+.head1{
+  display: flex;
+  
+  align-items: center;
+}
+.siderbar .navicon{
+  height: 22px;
+  width: 22px;
+  border-radius: 35px;
+  padding: 5px;
+  margin: 5px;
+  background-color: var(--bg-color);
+}
+.siderbar  img{
+height: 30px;
+padding: 5px;
+}
+.siderbar {
+display: flex;
+justify-content: space-between;
+background-color: var(--post-color);
+padding: 0.2em;
+}
+.head2icon{
 
-
-
+  font-size: 28px;
+}
+.head2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  padding: 5px;
+  color: var(--font-color);
+}
+.head3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .container {
   display: flex;
   justify-content: center;
   align-items: center
 }
+svg{
+  padding-left: 10px;
+}
 
 /* button toogle */
 .toogleButton{
-height: 2.5em;
-width: 2.5em;
-padding: 2px;
+  display: flex;
+  align-items: center;
+height: 2.2em;
+width: 2.2em;
+
 border-radius: 25px;
-border: solid var(--main-color);
+border: none;
 color: var(--main-color);
 background-color:var(--bg-color);
 font-size: 15px;
@@ -69,12 +111,12 @@ font-size: 15px;
   /* border: 1px solid black; */
   border-radius: 20px;
   /* height: 300px; */
-  width: 300px;
+  width: 340px;
   padding: 15px 0px 15px 0px;
   margin: 20px;
   background-color:var(--post-color);
   font-family: 'Roboto', sans-serif;
- 
+ font-size: 12px;
   color: var(--main-color);
 }
 

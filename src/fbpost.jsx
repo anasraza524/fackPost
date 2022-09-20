@@ -1,4 +1,4 @@
-import "./fbpost.css";
+import "./App.css";
 import React from "react";
 
 import moment from 'moment';
@@ -81,10 +81,13 @@ return <>
   
     <Post
       name="CEO Mindset"
-      profilephoto="https://tinyurl.com/4d6kb9ex"
+      profilephoto="https://scontent.fkhi20-1.fna.fbcdn.net/v/t1.6435-9/71116208_2154903351278332_4425042497978236928_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGM8yOnuR1xpHd_XrxjaLUUpSUaBohQIu6lJRoGiFAi7soSRJHftim1OONElKVENk1tsSlKyOQ-_lganeetI9oe&_nc_ohc=7B7DhBKEdhkAX-Z4JqH&_nc_ht=scontent.fkhi20-1.fna&oh=00_AT-nkgUg_rZiF1rvOiEyE4ymRWS8AtAjnx_yfD1u69Vw1g&oe=634EC796"
       postDate="12 Jun 2022"
-      postText=""
-      postImage="https://tinyurl.com/25tsnm6k"
+      postText="Dear Youth Of Pakistan!
+      As we all knows that requirement of Web Developers & other Tech Graduates has been increasing in International & local  IT industry with every passing day although we (Pakistanis) are doing great work in our capacity but still there's a huge gap between market requirement & availability of quality developers. So, we have decided to launch an other batch of Web & Mobile Application Development in all our campuses across Pakistan for Males & Females also.
+An amazing opportunity for the youth of Pakistan to change their lives.
+Admissions Starting From 14th september 2022 to 30th September 2022."
+      postImage="https://scontent.fkhi20-1.fna.fbcdn.net/v/t39.30808-6/306856502_5029691153799523_3695609696872407750_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHR9CcZstg3ggxMRgBGXdNfhcuKwn4j5aKFy4rCfiPloge110boKY4mDexd_75vZkn7mJrJN5YAVODXNTlqa8DT&_nc_ohc=AZTQsXjcIgEAX-i2C-m&_nc_ht=scontent.fkhi20-1.fna&oh=00_AT9fKNQmrT-NUTPZrbIXv0noj4GapgXHfkQzObSUSRG2Xg&oe=632F12B0"
     />
   
    
