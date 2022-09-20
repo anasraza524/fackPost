@@ -2,6 +2,7 @@ import "./fbpost.css";
 import React from "react";
 
 import moment from 'moment';
+
 import { AiFillLike  } from "react-icons/ai";
 import { MdInsertComment } from "react-icons/md";
 import { FaShare } from "react-icons/fa";
@@ -48,10 +49,10 @@ function Post({profilephoto, name, postDate, postText, postImage}) {
 
 function  fbpost() {
 return <>
-<div className="craetePost">
+{/* <div className="craetePost">
    
    
-   </div>
+   </div> */}
   
     <Post
       name="Muhammad Anas Raza"
