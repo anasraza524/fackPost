@@ -25,7 +25,7 @@ import "./App.css";
       <NavBar toggleThemeMode={toggleThemeMode} mode={themeMode}/>
       <div >
       <LeftBar />
-      <Fbpost />
+     <div className='fbpost'> <Fbpost /></div>
       </div>
     </div>
   

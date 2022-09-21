@@ -11,6 +11,7 @@
   --main-color: white;
   --post-color: rgb(63, 63, 63);
   --font-color: white;
+  --font-hover: rgb(201, 201, 201);
 }
 
 .light {
@@ -18,19 +19,20 @@
   --main-color: black;
   --post-color: whitesmoke;
   --font-color: rgb(0, 0, 0);
+  --font-hover: rgb(201, 201, 201);
 }
 .Appbody{
   /* display: grid;
   grid-template-columns: 210px 200px   ; */
-height: 100%;
-  display: flex;
-  flex-wrap: nowrap;
+
+
+
 
 }
 .Postbody{
-  position: relative;
-  left: 200px;
-  top: -450px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 .App {
  
@@ -39,30 +41,41 @@ height: 100%;
  
   background-color: var(--bg-color);
   color: var(--main-color);
-  transition: 1s;
+  transition: 0.5s;
   margin: 0;
   padding: 0;
 }
 p{
-  margin-left: 15px;
+  margin-left: 10px;
 }
 li{
   display: flex;
-  align-items: center;
+  
+  justify-content: center;
   margin: 0;
  
  
 }
+.fbpost{
+
+padding-top: 50px;
+
+}
+ul{
+  padding: 0;
+}
 .LeftBar{
-  display: flex;
-  flex-wrap: nowrap;
-  margin-top: 7px;
-  margin-right: 7px;
-  padding: 5px;
-  height: max-content;
-width:fit-content ;
+  position: fixed;
+align-items: center;
+justify-content: center;
+  margin-top: 70px;
+
+  padding: 0px;
+  height: 100%;
+width:22% ;
 font-size: 15px;
 background-color: var(--post-color);
+transition: 0.5s;
 
 }
 
@@ -82,16 +95,21 @@ span {
   padding: 5px;
   margin: 5px;
   background-color: var(--bg-color);
+  transition: 0.4s;
+  color: var(--font-color);
 }
 .siderbar  img{
 height: 30px;
 padding: 5px;
 }
 .siderbar {
+  box-shadow: 0px 0px 10px 1px #6D6F73;
+  position: fixed;
+ width: 100%;
 display: flex;
 justify-content: space-between;
 background-color: var(--post-color);
-padding: 0.2em;
+padding: 0.3em;
 }
 .head2icon{
 
@@ -100,7 +118,7 @@ padding: 0.2em;
 .head2{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   
   padding: 5px;
   color: var(--font-color);
@@ -116,21 +134,25 @@ padding: 0.2em;
   align-items: center
 }
 svg{
-  padding-left: 10px;
+  padding-left: 45px;
+  margin: 6px;
+}
+svg:hover{
+  background-color:var(--font-hover) ;
+  
 }
 
 /* button toogle */
 .toogleButton{
   display: flex;
-  align-items: center;
-height: 2.2em;
-width: 2.2em;
+  justify-content: center;
 
+padding-left: -20px;
 border-radius: 25px;
 border: none;
 color: var(--main-color);
 background-color:var(--bg-color);
-font-size: 15px;
+font-size: 24px;
 }
 
 
@@ -146,10 +168,11 @@ font-size: 15px;
   /* border: 1px solid black; */
   border-radius: 20px;
   /* height: 300px; */
-  width: 340px;
+  width: 400px;
   padding: 15px 0px 15px 0px;
   margin: 20px;
   background-color:var(--post-color);
+  transition: 0.5s;
   font-family: 'Roboto', sans-serif;
  font-size: 12px;
   color: var(--main-color);
@@ -181,6 +204,8 @@ font-size: 15px;
 
 .post .postFooter{
   display: flex;
+
+  
   justify-content: space-around;
   padding: 0px 20px 0px 20px;
   
@@ -194,4 +219,34 @@ font-size: 15px;
   font-family: 'Roboto', sans-serif;
  
   color: rgb(0, 0, 0);
+}
+
+
+
+/* left bar */
+.listItemsImageround {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+
+}
+
+
+
+.listItemsImage {
+  height: 30px;
+  width: 30px;
+}
+
+.listItems {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  width: 50%;
+  justify-content: center;
+}
+
+.listItems .listItemsText {
+  width: 50%;
+  /* height: 30px; */
 }

@@ -67,8 +67,8 @@ const navBar = (props) => {return (
         className="toogleButton"
          onClick={props.toggleThemeMode}>
             {(props.mode === "light")
-             ? <BsFillMoonFill/>  : 
-             <BsSunFill/>}</button>
+             ? <BsFillMoonFill className="navicon"/>  : 
+             <BsSunFill className="navicon"/>}</button>
         
         <AiOutlinePlus className="navicon"/>
         <BsMessenger className="navicon"/>
