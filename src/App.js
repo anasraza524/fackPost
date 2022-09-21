@@ -1,5 +1,6 @@
 import NavBar from './navbar'
 import Fbpost from './fbpost'
+import LeftBar from './leftBar'
 import React, { useState } from "react";
 import "./App.css";
 
@@ -22,8 +23,10 @@ import "./App.css";
 
       <div className={`App ${themeMode==="dark"?"dark":"light"}`}  >
       <NavBar toggleThemeMode={toggleThemeMode} mode={themeMode}/>
+      <div >
+      <LeftBar />
       <Fbpost />
-      
+      </div>
     </div>
   
   

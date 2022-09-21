@@ -10,7 +10,7 @@ import { FaShare } from "react-icons/fa";
 function Post({profilephoto, name, postDate, postText, postImage}) {
   return( 
     
-    <div   className="body">
+    <div   className="Postbody">
 
 
   
@@ -56,7 +56,7 @@ return <>
   
     <Post
       name="Muhammad Anas Raza"
-      profilephoto="https://scontent.fkhi20-1.fna.fbcdn.net/v/t39.30808-6/306786755_1202817790289152_518738169980312581_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGhdixRYXqpwfInQPFISuX6JYrz7428nSUlivPvjbydJTr03znpDJNKZOwteDQCzVK6M4gJhb1I13sdmEIXD2eo&_nc_ohc=NAtiNZliOUQAX_j900O&_nc_ht=scontent.fkhi20-1.fna&oh=00_AT_PXX5F4YbPl_tu57EAZqr6vE6HujPP4oc-8yCTKhk7Ig&oe=632A7180"
+      profilephoto="https://scontent.fkhi20-1.fna.fbcdn.net/v/t39.30808-6/306786755_1202817790289152_518738169980312581_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6rHQjW2YWHIAX_d7sx6&_nc_ht=scontent.fkhi20-1.fna&oh=00_AT_s_ieMucpgzD9uUjvi5hdDuQwhEDU3F-iJ1HvF5l7MUw&oe=63306040"
       postDate="12 jun 2022"
       postText="“I profoundly believe that there is always more than one 'right way' to achieve great results.”"
       
