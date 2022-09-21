@@ -23,7 +23,7 @@ return<div className='LeftBar'>
     <ul className="list">
           <li className="listItems">
             <img
-              src=".https://scontent.fkhi20-1.fna.fbcdn.net/v/t39.30808-6/306786755_1202817790289152_518738169980312581_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6rHQjW2YWHIAX9S4QQb&_nc_ht=scontent.fkhi20-1.fna&oh=00_AT--CGP6DWk_BK1ESQDorgETSreDN5rZXNEjLaBGc6MUSw&oe=63306040"
+              src="https://scontent.fkhi20-1.fna.fbcdn.net/v/t39.30808-6/306786755_1202817790289152_518738169980312581_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6rHQjW2YWHIAX9S4QQb&_nc_ht=scontent.fkhi20-1.fna&oh=00_AT--CGP6DWk_BK1ESQDorgETSreDN5rZXNEjLaBGc6MUSw&oe=63306040"
               alt=""
               className="listItemsImageround"
             />

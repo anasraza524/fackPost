@@ -168,13 +168,13 @@ font-size: 24px;
   /* border: 1px solid black; */
   border-radius: 20px;
   /* height: 300px; */
-  width: 400px;
+  width: 450px;
   padding: 15px 0px 15px 0px;
   margin: 20px;
   background-color:var(--post-color);
   transition: 0.5s;
   font-family: 'Roboto', sans-serif;
- font-size: 12px;
+ font-size: 15px;
   color: var(--main-color);
 }
 
@@ -225,17 +225,17 @@ font-size: 24px;
 
 /* left bar */
 .listItemsImageround {
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
-
+margin: 5px;
 }
 
 
 
 .listItemsImage {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
 }
 
 .listItems {
@@ -248,5 +248,6 @@ font-size: 24px;
 
 .listItems .listItemsText {
   width: 50%;
+  font-size: 20px;
   /* height: 30px; */
 }
